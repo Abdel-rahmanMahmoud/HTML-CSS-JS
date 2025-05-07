@@ -1,7 +1,7 @@
 # StackSoft Front-End Tasks
 
 ## 📝 Description  
-This repository contains my practice tasks during my internship at **StackSoft**, focused on improving front-end development skills.  
+This repository contains my practice tasks during my internship at **StackSoft**.  
 Each task was built using modern web technologies and follows best practices for responsive and accessible design.
 
 ## 🛠️ Technologies Used  
