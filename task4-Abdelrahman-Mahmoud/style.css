@@ -1,0 +1,54 @@
+
+/* للبدء من راس الصفحة */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+div {
+    background-color: #f0f0f0;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.5),
+                inset 5px 0 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 7px 6px;
+}
+
+td, th {
+    padding: 4px;
+    text-align: center; 
+    background-color: #bfbfb354;
+    box-shadow: -2px 6px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+}
+th {
+    font-size: large;
+    background-color: #999990b3;
+    color: #fff;
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+span {
+    color: #b90505;
+}
+
+tfoot td {
+    font-size: larger;
+    font-weight: bold;   
+    background-color: #999990b3;
+    color: #fff;
+    
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Dashboard</title>
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+                <img src="images/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top w-40 rounded-circle me-2">            
+            <div class="d-flex">
+                <button id="calculateAvg" class="btn btn-light me-2">Calculate Averages</button>
+                <button id="checkStatus" class="btn btn-light">Check Pass/Fail</button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Bootstrap Navbar -->
+    
+    <main>
+        <h2>Student Grades</h2>
+        <table >
+            <thead >
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Science</th>
+                    <th>Math</th>
+                    <th>Computer</th>
+                    <th>English</th>
+                    <th>Average</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- Data From JS Stack -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="bg-dark text-white py-3 text-center">
+        <p >© 2025 e-learning System</p>
+        <b>Contact : Abdismahmoud@gmail.com</b>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
